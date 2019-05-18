@@ -1,0 +1,15 @@
+package controller;
+
+public class HomeController {
+	class HomeController {
+		@Autowired
+		User user;
+		@RequestMapping("index")
+		public String index(ModelMap model) {
+		return "home/index";
+		}
+		@ModelAttribute("user")
+		public User getUser() {
+		return user;
+		}
+}

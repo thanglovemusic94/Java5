@@ -1,0 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- <% response.sendRedirect("account/login.htm");%> --%>
+<a href="<c:url value="/account/login.htm"></c:url>">Logout</a>
